@@ -22,6 +22,6 @@
   <project path="lmctfy" name="lmctfy" remote="github_google" />
 
   <project path="finagle" name="finagle" remote="github_twitter" />
-  <project path="zu" name="zu" remote="github_senseidb" />
+  <project path="zu" name="zu" remote="github_huahang" />
 
 </manifest>
