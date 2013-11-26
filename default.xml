@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="roo" fetch="ssh://liuhuahang@g.roo.im:29418" review="g.roo.im:8088" />
+
+  <default revision="master" remote="roo" sync-j="5" />
+
+  <project path="manifest" name="zerus/manifest" />
+
+</manifest>
