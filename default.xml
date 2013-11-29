@@ -3,12 +3,12 @@
 
   <remote name="roo" fetch="ssh://liuhuahang@g.roo.im:29418" review="g.roo.im:8088" />
 
-  <remote name="github"              fetch="ssh://git@github.com"              />
-  <remote name="github_huahang"      fetch="ssh://git@github.com/huahang"      />
-  <remote name="github_chen3feng"    fetch="ssh://git@github.com/chen3feng"    />
-  <remote name="github_google"       fetch="https://github.com/google"         />
-  <remote name="github_twitter"      fetch="https://github.com/twitter"        />
-  <remote name="github_senseidb"     fetch="https://github.com/senseidb"       />
+  <remote name="github_huahang"      fetch="ssh://git@github.com/huahang" />
+  <remote name="github_chen3feng"    fetch="https://github.com/chen3feng" />
+  <remote name="github_google"       fetch="https://github.com/google"    />
+  <remote name="github_twitter"      fetch="https://github.com/twitter"   />
+  <remote name="github_senseidb"     fetch="https://github.com/senseidb"  />
+  <remote name="github_apache"       fetch="https://github.com/apache"    />
 
   <default revision="master" remote="roo" sync-j="5" />
 
@@ -21,6 +21,7 @@
 
   <project path="lmctfy" name="lmctfy" remote="github_google" />
 
+  <project path="zookeeper" name="zookeeper" remote="github_apache" revision="refs/tags/release-3.4.5" />
   <project path="finagle" name="finagle" remote="github_twitter" />
   <project path="zu" name="zu" remote="github_huahang" />
 
