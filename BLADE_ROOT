@@ -1,3 +1,7 @@
+distcc_config(
+    enabled=True
+)
+
 thrift_library_config(
     thrift = '//thirdparty/thrift:thrift',
     thrift_libs = [
