@@ -9,6 +9,7 @@
   <remote name="github_twitter"      fetch="https://github.com/twitter"   />
   <remote name="github_senseidb"     fetch="https://github.com/senseidb"  />
   <remote name="github_apache"       fetch="https://github.com/apache"    />
+  <remote name="github_voldemort"    fetch="https://github.com/voldemort" />
 
   <default revision="master" remote="roo" sync-j="5" />
 
@@ -21,8 +22,9 @@
 
   <project path="lmctfy" name="lmctfy" remote="github_google" />
 
-  <project path="zookeeper" name="zookeeper" remote="github_apache" revision="refs/tags/release-3.4.5" />
   <project path="finagle" name="finagle" remote="github_twitter" />
+  <project path="voldemort" name="voldemort" remote="github_voldemort" />
+  <project path="zookeeper" name="zookeeper" remote="github_apache" revision="refs/tags/release-3.4.5" />
   <project path="zu" name="zu" remote="github_huahang" />
 
 </manifest>
