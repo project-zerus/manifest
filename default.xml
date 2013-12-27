@@ -3,6 +3,7 @@
 
   <remote name="roo" fetch="ssh://liuhuahang@g.roo.im:29418" review="g.roo.im:8088" />
 
+  <remote name="github"              fetch="ssh://git@github.com/"        />
   <remote name="github_huahang"      fetch="ssh://git@github.com/huahang" />
   <remote name="github_chen3feng"    fetch="https://github.com/chen3feng" />
   <remote name="github_google"       fetch="https://github.com/google"    />
@@ -22,9 +23,12 @@
 
   <project path="lmctfy" name="lmctfy" remote="github_google" />
 
-  <project path="finagle" name="finagle" remote="github_twitter" />
   <project path="voldemort" name="voldemort" remote="github_voldemort" />
   <project path="zookeeper" name="zookeeper" remote="github_apache" revision="refs/tags/release-3.4.5" />
   <project path="zu" name="zu" remote="github_huahang" />
+
+  <project path="twitter/commons" name="twitter/commons" />
+  <project path="twitter/finagle" name="twitter/finagle" />
+  <project path="twitter/util"    name="twitter/util"    />
 
 </manifest>
