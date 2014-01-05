@@ -3,14 +3,15 @@
 
   <remote name="roo" fetch="ssh://liuhuahang@g.roo.im:29418" review="g.roo.im:8088" />
 
-  <remote name="github"              fetch="ssh://git@github.com/"        />
-  <remote name="github_huahang"      fetch="ssh://git@github.com/huahang" />
-  <remote name="github_chen3feng"    fetch="https://github.com/chen3feng" />
-  <remote name="github_google"       fetch="https://github.com/google"    />
-  <remote name="github_twitter"      fetch="https://github.com/twitter"   />
-  <remote name="github_senseidb"     fetch="https://github.com/senseidb"  />
-  <remote name="github_apache"       fetch="https://github.com/apache"    />
-  <remote name="github_voldemort"    fetch="https://github.com/voldemort" />
+  <remote name="github"              fetch="ssh://git@github.com/"          />
+  <remote name="github_antirez"      fetch="ssh://git@github.com/antirez"   />
+  <remote name="github_apache"       fetch="ssh://git@github.com/apache"    />
+  <remote name="github_chen3feng"    fetch="ssh://git@github.com/chen3feng" />
+  <remote name="github_google"       fetch="ssh://git@github.com/google"    />
+  <remote name="github_huahang"      fetch="ssh://git@github.com/huahang"   />
+  <remote name="github_senseidb"     fetch="ssh://git@github.com/senseidb"  />
+  <remote name="github_twitter"      fetch="ssh://git@github.com/twitter"   />
+  <remote name="github_voldemort"    fetch="ssh://git@github.com/voldemort" />
 
   <default revision="master" remote="roo" sync-j="5" />
 
@@ -30,5 +31,7 @@
   <project path="twitter/commons" name="twitter/commons" />
   <project path="twitter/finagle" name="twitter/finagle" />
   <project path="twitter/util"    name="twitter/util"    />
+
+  <project path="redis" name="redis" remote="github_antirez" revision="refs/tags/2.8.3" />
 
 </manifest>
