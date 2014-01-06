@@ -10,6 +10,7 @@
   <remote name="github_google"       fetch="ssh://git@github.com/google"    />
   <remote name="github_huahang"      fetch="ssh://git@github.com/huahang"   />
   <remote name="github_senseidb"     fetch="ssh://git@github.com/senseidb"  />
+  <remote name="github_taobao"       fetch="ssh://git@github.com/taobao"    />
   <remote name="github_twitter"      fetch="ssh://git@github.com/twitter"   />
   <remote name="github_voldemort"    fetch="ssh://git@github.com/voldemort" />
 
@@ -33,5 +34,6 @@
   <project path="twitter/util"    name="twitter/util"    />
 
   <project path="redis" name="redis" remote="github_antirez" revision="refs/tags/2.8.3" />
+  <project path="tedis" name="tedis" remote="github_taobao" />
 
 </manifest>
