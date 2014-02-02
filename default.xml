@@ -7,6 +7,7 @@
   <remote name="github_antirez"      fetch="ssh://git@github.com/antirez"   />
   <remote name="github_apache"       fetch="ssh://git@github.com/apache"    />
   <remote name="github_chen3feng"    fetch="ssh://git@github.com/chen3feng" />
+  <remote name="github_corosync"     fetch="ssh://git@github.com/corosync"  />
   <remote name="github_google"       fetch="ssh://git@github.com/google"    />
   <remote name="github_huahang"      fetch="ssh://git@github.com/huahang"   />
   <remote name="github_senseidb"     fetch="ssh://git@github.com/senseidb"  />
@@ -34,6 +35,7 @@
   <project path="twitter/util"    name="twitter/util"    />
 
   <project path="redis" name="redis" remote="github_antirez" revision="refs/tags/2.8.3" />
-  <project path="tedis" name="tedis" remote="github_taobao" />
+
+  <project path="corosync" name="corosync" remote="github_corosync" revision="refs/tags/v2.3.3" />
 
 </manifest>
