@@ -12,6 +12,9 @@
   <project path="thirdparty" name="zerus/thirdparty" />
   <project path="toft" name="zerus/toft" />
 
+  <project path="larva" name="zerus/larva" />
+  <project path="brood" name="zerus/brood" />
+
   <project path="redis" name="antirez/redis" remote="github" revision="refs/tags/2.8.5" />
 
 </manifest>
