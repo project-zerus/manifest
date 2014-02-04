@@ -3,42 +3,15 @@
 
   <remote name="roo" fetch="ssh://liuhuahang@g.roo.im:29418" review="g.roo.im:8088" />
 
-  <remote name="github"             fetch="ssh://git@github.com/"            />
-  <remote name="github_antirez"     fetch="ssh://git@github.com/antirez"     />
-  <remote name="github_apache"      fetch="ssh://git@github.com/apache"      />
-  <remote name="github_chen3feng"   fetch="ssh://git@github.com/chen3feng"   />
-  <remote name="github_clusterlabs" fetch="ssh://git@github.com/ClusterLabs" />
-  <remote name="github_corosync"    fetch="ssh://git@github.com/corosync"    />
-  <remote name="github_google"      fetch="ssh://git@github.com/google"      />
-  <remote name="github_huahang"     fetch="ssh://git@github.com/huahang"     />
-  <remote name="github_senseidb"    fetch="ssh://git@github.com/senseidb"    />
-  <remote name="github_taobao"      fetch="ssh://git@github.com/taobao"      />
-  <remote name="github_twitter"     fetch="ssh://git@github.com/twitter"     />
-  <remote name="github_voldemort"   fetch="ssh://git@github.com/voldemort"   />
+  <remote name="github" fetch="https://github.com/" />
 
   <default revision="master" remote="roo" sync-j="5" />
 
   <project path="manifest" name="zerus/manifest" />
+  <project path="blade" name="zerus/blade" />
+  <project path="thirdparty" name="zerus/thirdparty" />
+  <project path="toft" name="zerus/toft" />
 
-  <project path="blade" name="typhoon-blade" remote="github_huahang" />
-
-  <project path="thirdparty" name="thirdparty" remote="github_huahang" />
-  <project path="toft" name="toft" remote="github_huahang" />
-
-  <project path="lmctfy" name="lmctfy" remote="github_google" />
-
-  <project path="voldemort" name="voldemort" remote="github_voldemort" />
-  <project path="zookeeper" name="zookeeper" remote="github_apache" revision="refs/tags/release-3.4.5" />
-  <project path="zu" name="zu" remote="github_huahang" />
-
-  <project path="twitter/commons" name="twitter/commons" />
-  <project path="twitter/finagle" name="twitter/finagle" />
-  <project path="twitter/util"    name="twitter/util"    />
-
-  <project path="redis" name="redis" remote="github_antirez" revision="refs/tags/2.8.3" />
-
-  <project path="corosync" name="corosync" remote="github_corosync" revision="refs/tags/v2.3.3" />
-
-  <project path="pacemaker" name="pacemaker" remote="github_clusterlabs" revision="refs/tags/Pacemaker-1.1.10" />
+  <project path="redis" name="antirez/redis" remote="github" revision="refs/tags/2.8.5" />
 
 </manifest>
