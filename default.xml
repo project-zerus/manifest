@@ -7,12 +7,16 @@
 
   <default revision="master" remote="roo" sync-j="5" />
 
-  <project path="manifest" name="zerus/manifest" />
-  <project path="blade" name="zerus/blade" />
+  <project path="manifest"   name="zerus/manifest" />
+  <project path="blade"      name="zerus/blade" />
   <project path="thirdparty" name="zerus/thirdparty" />
-  <project path="toft" name="zerus/toft" />
+  <project path="toft"       name="zerus/toft" />
 
-  <project path="essence/libevhtp" name="zerus/libevhtp" revision="1.2.8-zerus" />
+  <project path="tools/header-extractor" name="tools/header-extractor" />
+  <project path="tools/header-replacer"  name="tools/header-replacer"  />
+
+  <project path="essence/libevhtp"  name="zerus/libevhtp"  revision="1.2.8-zerus" />
+  <project path="essence/zookeeper" name="zerus/zookeeper" revision="3.4.5-zerus" />
 
   <project path="larva" name="zerus/larva" />
   <project path="brood" name="zerus/brood" />
