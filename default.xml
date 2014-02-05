@@ -11,7 +11,8 @@
   <project path="blade" name="zerus/blade" />
   <project path="thirdparty" name="zerus/thirdparty" />
   <project path="toft" name="zerus/toft" />
-  <project path="libevhtp" name="zerus/libevhtp" revision="1.2.8-zerus" />
+
+  <project path="essence/libevhtp" name="zerus/libevhtp" revision="1.2.8-zerus" />
 
   <project path="larva" name="zerus/larva" />
   <project path="brood" name="zerus/brood" />
