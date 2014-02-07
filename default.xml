@@ -15,9 +15,11 @@
   <project path="tools/header-extractor" name="tools/header-extractor" />
   <project path="tools/header-replacer"  name="tools/header-replacer"  />
 
-  <project path="essence/onig"      name="zerus/onig"      revision="5.9.5-zerus" />
-  <project path="essence/libevhtp"  name="zerus/libevhtp"  revision="1.2.8-zerus" />
-  <project path="essence/zookeeper" name="zerus/zookeeper" revision="3.4.5-zerus" />
+  <project path="essence/libevhtp"  name="zerus/libevhtp"  revision="1.2.8-zerus"  />
+  <project path="essence/mariadb"   name="zerus/mariadb"   revision="5.5.35-zerus" />
+  <project path="essence/onig"      name="zerus/onig"      revision="5.9.5-zerus"  />
+  <project path="essence/tengine"   name="zerus/tengine"   revision="2.0.1-zerus"  />
+  <project path="essence/zookeeper" name="zerus/zookeeper" revision="3.4.5-zerus"  />
 
   <project path="larva" name="zerus/larva" />
   <project path="brood" name="zerus/brood" />
