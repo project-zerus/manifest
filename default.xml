@@ -21,7 +21,8 @@
   <project path="essence/tengine"   name="zerus/tengine"   revision="2.0.1-zerus"  />
   <project path="essence/zookeeper" name="zerus/zookeeper" revision="3.4.5-zerus"  />
 
-  <project path="larva" name="zerus/larva" />
   <project path="brood" name="zerus/brood" />
+  <project path="id"    name="zerus/id"    />
+  <project path="larva" name="zerus/larva" />
 
 </manifest>
