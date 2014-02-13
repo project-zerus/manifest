@@ -1,0 +1,6 @@
+thrift_library_config(
+    thrift = '//thirdparty/thrift:thrift',
+    thrift_libs = [
+        '//thirdparty/thrift:libthrift',
+    ],
+)
