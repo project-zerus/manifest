@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gerrit" fetch="ssh://huahang@gerrit.zerus.co:29418" review="gerrit.zerus.co" />
+  <remote name="github" fetch="https://github.com/project-zerus" review="gerrit.zerus.co"/>
+
+  <default revision="master" remote="gerrit" />
+
+  <project path="manifest"   name="manifest" />
+
+</manifest>
