@@ -6,7 +6,7 @@
 
   <default revision="master" remote="gerrit" />
 
-  <project path="manifest"     name="manifest" />
-  <project path="All-Projects" name="All-Projects" />
+  <project path="manifest" name="manifest" />
+  <project path="blade" name="blade" />
 
 </manifest>
