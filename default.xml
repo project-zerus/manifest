@@ -8,4 +8,21 @@
   <project path="manifest" name="manifest" />
   <project path="blade" name="blade" />
 
+  <project path="thirdparty" name="thirdparty" />
+  <project path="toft"       name="toft" />
+
+  <project path="tools/header-extractor" name="header-extractor" />
+  <project path="tools/header-replacer"  name="header-replacer"  />
+
+  <project path="essence/libevhtp"  name="libevhtp"  revision="1.2.8-zerus"  />
+  <project path="essence/mariadb"   name="mariadb"   revision="5.5.35-zerus" />
+  <project path="essence/onig"      name="onig"      revision="5.9.5-zerus"  />
+  <project path="essence/redis"     name="redis"     revision="2.8.5-zerus"  />
+  <project path="essence/tengine"   name="tengine"   revision="2.0.1-zerus"  />
+  <project path="essence/zookeeper" name="zookeeper" revision="3.4.5-zerus"  />
+
+  <project path="brood" name="brood" />
+  <project path="id"    name="id"    />
+  <project path="larva" name="larva" />
+
 </manifest>
