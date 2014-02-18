@@ -1,5 +1,5 @@
 thrift_library_config(
-    thrift = '//thirdparty/thrift:thrift',
+    thrift = '//thirdparty/thrift-0.9.1/compiler:thrift',
     thrift_libs = [
         '//thirdparty/thrift:libthrift',
     ],
