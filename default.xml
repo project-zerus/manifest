@@ -24,8 +24,9 @@
   <project path="external/tengine"   name="tengine"   revision="2.0.1-zerus"  />
   <project path="external/zookeeper" name="zookeeper" revision="3.4.5-zerus"  />
 
-  <project path="brood" name="brood" />
-  <project path="id"    name="id"    />
-  <project path="larva" name="larva" />
+  <project path="brood"   name="brood"   />
+  <project path="id"      name="id"      />
+  <project path="larva"   name="larva"   />
+  <project path="sandbox" name="sandbox" />
 
 </manifest>
