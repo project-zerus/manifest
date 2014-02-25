@@ -50,11 +50,9 @@ cc_config(
         '-Wno-invalid-offsetof',
         '-Wnon-virtual-dtor',
         '-Woverloaded-virtual',
-        '-Wvla',
         '-Werror=non-virtual-dtor',
         '-Werror=non-virtual-dtor',
         '-Werror=overloaded-virtual',
-        '-Werror=vla',
     ],
     # C only warning flags
     c_warnings = ['-Werror-implicit-function-declaration'],
