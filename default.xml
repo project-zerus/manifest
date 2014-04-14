@@ -17,7 +17,7 @@
 
   <project path="essence/ctemplate" name="ctemplate" revision="2.2-zerus"   />
   <project path="essence/libevhtp"  name="libevhtp"  revision="1.2.8-zerus" />
-  <project path="essence/muduo"     name="muduo"     revision="0.9.8-zerus" />
+  <project path="essence/muduo"     name="muduo"     revision="1.0.1-zerus" />
   <project path="essence/onig"      name="onig"      revision="5.9.5-zerus" />
 
   <project path="external/cassandra" name="cassandra" revision="2.0.5-zerus"  />
