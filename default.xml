@@ -6,28 +6,29 @@
   <default revision="master" remote="github" sync-j="8" />
 
   <project path="manifest" name="manifest" />
+
   <project path="blade" name="blade" />
   <project path="katana" name="katana" />
 
+  <project path="fbthrift"   name="fbthrift"   />
+  <project path="folly"      name="folly"      />
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
+  <project path="polarssl"          name="polarssl"          revision="1.3.7-zerus" />
+  <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus" />
+  <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"   />
+  <project path="onig"              name="onig"              revision="5.9.5-zerus" />
+  <project path="libevhtp"          name="libevhtp"          revision="1.2.9-zerus" />
+
   <project path="tools/header-extractor" name="header-extractor" />
   <project path="tools/header-replacer"  name="header-replacer"  />
+  <project path="tools/linter"           name="linter"  />
 
-  <project path="essence/ctemplate"      name="ctemplate"      revision="2.2-zerus"   />
-  <project path="essence/libevhtp"       name="libevhtp"       revision="1.2.9-zerus" />
-  <project path="essence/lmctfy"         name="lmctfy"         revision="0.4.5-zerus" />
   <project path="essence/muduo"          name="muduo"          revision="1.0.1-zerus" />
   <project path="essence/muduo-protorpc" name="muduo-protorpc" revision="1.0.0-zerus" />
-  <project path="essence/onig"           name="onig"           revision="5.9.5-zerus" />
-  <project path="essence/polarssl"       name="polarssl"       revision="1.3.7-zerus" />
 
-  <project path="external/cassandra" name="cassandra" revision="2.0.5-zerus"  />
-  <project path="external/mariadb"   name="mariadb"   revision="5.5.35-zerus" />
-  <project path="external/redis"     name="redis"     revision="2.8.5-zerus"  />
-  <project path="external/tengine"   name="tengine"   revision="2.0.1-zerus"  />
-  <project path="external/zookeeper" name="zookeeper" revision="3.4.5-zerus"  />
+  <project path="sandbox" name="sandbox" />
 
 
   <project path="brood"   name="brood"   />
