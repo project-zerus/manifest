@@ -28,9 +28,6 @@
   <project path="essence/muduo"          name="muduo"          revision="1.0.1-zerus" />
   <project path="essence/muduo-protorpc" name="muduo-protorpc" revision="1.0.0-zerus" />
 
-  <project path="sandbox" name="sandbox" />
-
-
   <project path="brood"   name="brood"   />
   <project path="id"      name="id"      />
   <project path="larva"   name="larva"   />
