@@ -15,14 +15,19 @@
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
-  <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"    />
-  <project path="boost"             name="boost"             revision="1.55.0-zerus" />
-  <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus"  />
-  <project path="libevhtp"          name="libevhtp"          revision="1.2.9-zerus"  />
-  <project path="jemalloc"          name="jemalloc"          revision="3.6.0-zerus"  />
-  <project path="jsoncpp"           name="jsoncpp"           revision="0.6.0-zerus"  />
-  <project path="onig"              name="onig"              revision="5.9.5-zerus"  />
-  <project path="polarssl"          name="polarssl"          revision="1.3.7-zerus"  />
+  <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"     />
+  <project path="boost"             name="boost"             revision="1.55.0-zerus"  />
+  <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus"   />
+  <project path="leveldb"           name="leveldb"           revision="1.17-zerus"    />
+  <project path="libevhtp"          name="libevhtp"          revision="1.2.9-zerus"   />
+  <project path="libmemcached"      name="libmemcached"      revision="1.0.18-zerus"  />
+  <project path="jemalloc"          name="jemalloc"          revision="3.6.0-zerus"   />
+  <project path="jsoncpp"           name="jsoncpp"           revision="0.6.0-zerus"   />
+  <project path="onig"              name="onig"              revision="5.9.5-zerus"   />
+  <project path="pcre"              name="pcre"              revision="7.1-zerus"     />
+  <project path="poco"              name="poco"              revision="1.4.6p4-zerus" />
+  <project path="polarssl"          name="polarssl"          revision="1.3.7-zerus"   />
+  <project path="zlib"              name="zlib"              revision="1.2.8-zerus"   />
 
   <project path="tools/header-extractor" name="header-extractor" />
   <project path="tools/header-replacer"  name="header-replacer"  />
