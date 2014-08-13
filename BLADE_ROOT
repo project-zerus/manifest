@@ -3,7 +3,6 @@ cc_config(
     extra_incs = [
       'essence',
       'fbthrift',
-      'folly',
     ],
     warnings = [
       '-Wno-unused-label',
