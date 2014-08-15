@@ -15,6 +15,7 @@
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
+  <project path="cppunit"           name="cppunit"           revision="1.13.2-zerus"  />
   <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"     />
   <project path="boost"             name="boost"             revision="1.55.0-zerus"  />
   <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus"   />
