@@ -1,7 +1,6 @@
 cc_config(
   append = config_items(
     extra_incs = [
-      'essence',
       'fbthrift',
     ],
     warnings = [
