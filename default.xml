@@ -37,6 +37,7 @@
   <project path="tools/header-extractor" name="header-extractor" />
   <project path="tools/header-replacer"  name="header-replacer"  />
   <project path="tools/linter"           name="linter"  />
+  <project path="tools/zdevutils"        name="zdevutils"  />
 
   <project path="essence/muduo"          name="muduo"          revision="1.0.1-zerus" />
   <project path="essence/muduo-protorpc" name="muduo-protorpc" revision="1.0.0-zerus" />
