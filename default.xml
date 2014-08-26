@@ -28,7 +28,6 @@
   <project path="onig"              name="onig"              revision="5.9.5-zerus"   />
   <project path="openssl"           name="openssl"           revision="1.0.1h-zerus"  />
   <project path="pcre"              name="pcre"              revision="7.1-zerus"     />
-  <project path="poco"              name="poco"              revision="1.4.6p4-zerus" />
   <project path="polarssl"          name="polarssl"          revision="1.3.8-zerus"   />
   <project path="rocksdb"           name="rocksdb"           revision="3.3-zerus"     />
   <project path="snappy"            name="snappy"            revision="1.1.2-zerus"   />
