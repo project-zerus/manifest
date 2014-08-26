@@ -22,6 +22,7 @@
   <project path="leveldb"           name="leveldb"           revision="1.17-zerus"    />
   <project path="libevhtp"          name="libevhtp"          revision="1.2.9-zerus"   />
   <project path="libmemcached"      name="libmemcached"      revision="1.0.18-zerus"  />
+  <project path="muduo"             name="muduo"             revision="1.0.3-zerus" />
   <project path="jemalloc"          name="jemalloc"          revision="3.6.0-zerus"   />
   <project path="jsoncpp"           name="jsoncpp"           revision="0.6.0-zerus"   />
   <project path="onig"              name="onig"              revision="5.9.5-zerus"   />
@@ -38,9 +39,6 @@
   <project path="tools/header-replacer"  name="header-replacer"  />
   <project path="tools/linter"           name="linter"  />
   <project path="tools/zdevutils"        name="zdevutils"  />
-
-  <project path="essence/muduo"          name="muduo"          revision="1.0.1-zerus" />
-  <project path="essence/muduo-protorpc" name="muduo-protorpc" revision="1.0.0-zerus" />
 
   <project path="brood"   name="brood"   />
   <project path="id"      name="id"      />
