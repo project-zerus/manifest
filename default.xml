@@ -10,6 +10,7 @@
   <project path="blade" name="blade" />
   <project path="katana" name="katana" />
 
+  <project path="benchmark"  name="benchmark"  />
   <project path="fbthrift"   name="fbthrift"   />
   <project path="folly"      name="folly"      />
   <project path="jsoncpp"    name="jsoncpp"    />
