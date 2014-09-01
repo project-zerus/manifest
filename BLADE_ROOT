@@ -18,6 +18,13 @@ cc_config(
   )
 )
 
+proto_library_config(
+    protoc='thirdparty/protobuf/bin/protoc',
+    protobuf_libs=['//protobuf:protobuf'],
+    protobuf_path='protobuf/src',
+    protobuf_incs = 'protobuf/src',
+)
+
 thrift_library_config(
   thrift = 'thirdparty/thrift-0.9.1/bin/thrift',
   thrift_libs = [
