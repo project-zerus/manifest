@@ -19,7 +19,7 @@
 
   <project path="cppunit"           name="cppunit"           revision="1.13.2-zerus"  />
   <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"     />
-  <project path="boost"             name="boost"             revision="1.55.0-zerus"  />
+  <project path="boost"             name="boost"             revision="1.56.0-zerus"  />
   <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus"   />
   <project path="http-parser"       name="http-parser"       revision="2.3-zerus"     />
   <project path="leveldb"           name="leveldb"           revision="1.17-zerus"    />
