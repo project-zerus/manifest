@@ -45,9 +45,10 @@
   <project path="tools/linter"           name="linter"  />
   <project path="tools/zdevutils"        name="zdevutils"  />
 
-  <project path="brood"   name="brood"   />
-  <project path="id"      name="id"      />
-  <project path="larva"   name="larva"   />
-  <project path="sandbox" name="sandbox" />
+  <project path="brood"    name="brood"    />
+  <project path="id"       name="id"       />
+  <project path="larva"    name="larva"    />
+  <project path="sheepdog" name="sheepdog" />
+  <project path="sandbox"  name="sandbox"  />
 
 </manifest>
