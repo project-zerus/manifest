@@ -22,7 +22,8 @@
   <project path="boost"             name="boost"             revision="1.56.0-zerus"  />
   <project path="double-conversion" name="double-conversion" revision="2.0.1-zerus"   />
   <project path="http-parser"       name="http-parser"       revision="2.3-zerus"     />
-  <project path="leveldb"           name="leveldb"           revision="1.17-zerus"    />
+  <project path="kyotocabinet"      name="kyotocabinet"      revision="1.2.76-zerus"  />
+  <project path="leveldb"           name="leveldb"           revision="1.18-zerus"    />
   <project path="libdrizzle"        name="libdrizzle"        revision="5.1.4-zerus"   />
   <project path="libevhtp"          name="libevhtp"          revision="1.2.9-zerus"   />
   <project path="libmemcached"      name="libmemcached"      revision="1.0.18-zerus"  />
