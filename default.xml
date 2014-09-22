@@ -14,6 +14,7 @@
   <project path="fbthrift"   name="fbthrift"   />
   <project path="folly"      name="folly"      />
   <project path="jsoncpp"    name="jsoncpp"    />
+  <project path="sofa-pbrpc" name="sofa-pbrpc" />
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
