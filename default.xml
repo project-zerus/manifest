@@ -18,6 +18,7 @@
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
+  <project path="cpp-netlib"        name="cpp-netlib"        revision="0.11.0-zerus"  />
   <project path="cppunit"           name="cppunit"           revision="1.13.2-zerus"  />
   <project path="ctemplate"         name="ctemplate"         revision="2.2-zerus"     />
   <project path="boost"             name="boost"             revision="1.56.0-zerus"  />
