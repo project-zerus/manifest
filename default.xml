@@ -11,12 +11,13 @@
   <project path="katana" name="katana" />
 
   <project path="benchmark"  name="benchmark"  />
-  <project path="fbthrift"   name="fbthrift"   />
-  <project path="folly"      name="folly"      />
   <project path="jsoncpp"    name="jsoncpp"    />
   <project path="sofa-pbrpc" name="sofa-pbrpc" />
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
+
+  <project path="fbthrift" name="fbthrift" revision="9.0-zerus" />
+  <project path="folly"    name="folly"    revision="9.0-zerus" />
 
   <project path="cpp-netlib"        name="cpp-netlib"        revision="0.11.0-zerus"  />
   <project path="cppunit"           name="cppunit"           revision="1.13.2-zerus"  />
