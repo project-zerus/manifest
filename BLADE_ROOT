@@ -19,10 +19,15 @@ cc_config(
 )
 
 proto_library_config(
-    protoc='thirdparty/protobuf/bin/protoc',
-    protobuf_libs=['//protobuf:protobuf'],
-    protobuf_path='protobuf/src',
-    protobuf_incs = 'protobuf/src',
+  protoc='thirdparty/protobuf/bin/protoc',
+  protobuf_libs = [
+    '//protobuf:protobuf',
+    '//sofa-pbrpc:sofa-pbrpc',
+  ],
+  protobuf_incs = [
+    'protobuf/src',
+    'sofa-pbrpc/src',
+  ],
 )
 
 thrift_library_config(
