@@ -35,7 +35,7 @@
   <project path="muduo"             name="muduo"             revision="1.0.3-zerus"   />
   <project path="jemalloc"          name="jemalloc"          revision="3.6.0-zerus"   />
   <project path="onig"              name="onig"              revision="5.9.5-zerus"   />
-  <project path="openssl"           name="openssl"           revision="1.0.1h-zerus"  />
+  <project path="openssl"           name="openssl"           revision="1.0.1j-zerus"  />
   <project path="pcre"              name="pcre"              revision="7.1-zerus"     />
   <project path="polarssl"          name="polarssl"          revision="1.3.8-zerus"   />
   <project path="protobuf"          name="protobuf"          revision="2.6.0-zerus"   />
