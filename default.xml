@@ -16,8 +16,8 @@
   <project path="thirdparty" name="thirdparty" />
   <project path="toft"       name="toft"       />
 
-  <project path="fbthrift" name="fbthrift" revision="9.0-zerus" />
-  <project path="folly"    name="folly"    revision="9.0-zerus" />
+  <project path="fbthrift" name="fbthrift" revision="13.0-zerus" />
+  <project path="folly"    name="folly"    revision="15.0-zerus" />
 
   <project path="cpp-netlib"        name="cpp-netlib"        revision="0.11.0-zerus"  />
   <project path="cppunit"           name="cppunit"           revision="1.13.2-zerus"  />
