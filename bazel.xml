@@ -9,4 +9,8 @@
 
   <project path="bazel"  name="bazel" />
 
+  <project path="protobuf"  name="protobuf" />
+
+  <project path="grpc"  name="grpc" />
+
 </manifest>
