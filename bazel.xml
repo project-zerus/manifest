@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github" fetch="https://github.com/project-zerus" review="gerrit.zerus.co" />
+
+  <default revision="master" remote="github" sync-j="8" />
+
+  <project path="manifest" name="manifest" />
+
+  <project path="bazel"  name="bazel" />
+
+</manifest>
