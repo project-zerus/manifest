@@ -9,6 +9,8 @@
 
   <project path="bazel"  name="bazel" />
 
-  <project path="zlib"  name="zlib" revision="1.2.8-bazel" />
+  <project path="boost"  name="boost" revision="1.58.0-bazel" />
+
+  <project path="zlib"   name="zlib"  revision="1.2.8-bazel"  />
 
 </manifest>
