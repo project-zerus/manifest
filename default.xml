@@ -5,7 +5,7 @@
 
   <default revision="master" remote="zerus" sync-j="8" />
 
-  <project path="manifest" name="manifest" />
+  <project path="manifest" name="manifest" revision="bazel" />
 
   <project path="bazel"  name="bazel" />
 
