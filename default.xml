@@ -5,7 +5,7 @@
 
   <default revision="master" remote="zerus" sync-j="8" />
 
-  <project path="manifest" name="manifest" />
+  <project path="manifest" name="manifest" revision="blade" />
 
   <project path="blade"  name="blade" />
   <project path="katana" name="katana" />
