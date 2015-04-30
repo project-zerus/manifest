@@ -10,9 +10,9 @@
   <project path="bazel"  name="bazel" />
 
   <project path="boost" name="boost" revision="1.58.0-bazel" />
-
+  <project path="double-conversion" name="double-conversion" />
   <project path="jemalloc" name="jemalloc" revision="3.6.0-bazel" />
-
+  <project path="re2" name="re2" />
   <project path="zlib" name="zlib" revision="1.2.8-bazel" />
 
 </manifest>
