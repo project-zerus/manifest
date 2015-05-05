@@ -12,6 +12,8 @@
   <project path="boost" name="boost" revision="1.58.0-bazel" />
   <project path="double-conversion" name="double-conversion" />
   <project path="folly" name="folly" revision="0.37.0-bazel" />
+  <project path="gflags" name="gflags" revision="2.1.2-bazel" />
+  <project path="glog" name="glog" revision="0.3.4-bazel" />
   <project path="jemalloc" name="jemalloc" revision="3.6.0-bazel" />
   <project path="proxygen" name="proxygen" revision="0.21.0-bazel" />
   <project path="re2" name="re2" />
