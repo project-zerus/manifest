@@ -1,19 +1,29 @@
 bind(
-  name = "gflags",
-  actual = "//gflags:gflags",
+  name = 'boost',
+  actual = '//boost:boost',
 )
 
 bind(
-  name = "glog",
-  actual = "//glog:glog",
+  name = 'double-conversion',
+  actual = '//double-conversion:double-conversion',
 )
 
 bind(
-  name = "jemalloc",
-  actual = "//jemalloc:jemalloc",
+  name = 'gflags',
+  actual = '//gflags:gflags',
 )
 
 bind(
-  name = "zlib",
-  actual = "//zlib:z",
+  name = 'glog',
+  actual = '//glog:glog',
+)
+
+bind(
+  name = 'jemalloc',
+  actual = '//jemalloc:jemalloc',
+)
+
+bind(
+  name = 'zlib',
+  actual = '//zlib:z',
 )
