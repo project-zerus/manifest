@@ -24,6 +24,11 @@ bind(
 )
 
 bind(
+  name = 'libssl',
+  actual = '//openssl:openssl',
+)
+
+bind(
   name = 'zlib',
   actual = '//zlib:z',
 )
