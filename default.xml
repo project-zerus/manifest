@@ -10,6 +10,7 @@
   <project path="bazel"  name="bazel" />
 
   <project path="boost" name="boost" revision="1.57.0-bazel" />
+  <project path="boringssl" name="boringssl" />
   <project path="double-conversion" name="double-conversion" revision="2.0.1-bazel" />
   <project path="folly" name="folly" revision="0.37.0-bazel" />
   <project path="gflags" name="gflags" revision="2.1.2-bazel" />
