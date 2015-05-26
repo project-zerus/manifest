@@ -24,6 +24,16 @@ bind(
 )
 
 bind(
+  name = 'gmock',
+  actual = '//googlemock:gmock',
+)
+
+bind(
+  name = 'gmock_main',
+  actual = '//googlemock:gmock_main',
+)
+
+bind(
   name = 'gtest',
   actual = '//googletest:gtest',
 )
@@ -34,11 +44,11 @@ bind(
 )
 
 bind(
-  name = 'gmock',
-  actual = '//googlemock:gmock',
+  name = 'libssl',
+  actual = '//manifest/libraries:libssl',
 )
 
 bind(
-  name = 'gmock_main',
-  actual = '//googlemock:gmock_main',
+  name = 'libevent',
+  actual = '//manifest/libraries:libevent',
 )
