@@ -42,23 +42,3 @@ bind(
   name = 'gmock_main',
   actual = '//googlemock:gmock_main',
 )
-
-bind(
-  name = 'jemalloc',
-  actual = '//jemalloc:jemalloc',
-)
-
-bind(
-  name = 'libevent',
-  actual = '//libevent:libevent',
-)
-
-bind(
-  name = 'libssl',
-  actual = '//openssl:openssl',
-)
-
-bind(
-  name = 'zlib',
-  actual = '//zlib:z',
-)
