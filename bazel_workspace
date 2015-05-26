@@ -45,15 +45,15 @@ bind(
 
 bind(
   name = 'libssl',
-  actual = '//manifest/libraries:libssl',
+  actual = '//manifest/libraries/libssl:libssl',
 )
 
 bind(
   name = 'libevent',
-  actual = '//manifest/libraries:libevent',
+  actual = '//manifest/libraries/libevent:libevent',
 )
 
 bind(
   name = 'pthread',
-  actual = '//manifest/libraries:pthread',
+  actual = '//manifest/libraries/pthread:pthread',
 )
