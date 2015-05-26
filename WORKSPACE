@@ -52,3 +52,8 @@ bind(
   name = 'libevent',
   actual = '//manifest/libraries:libevent',
 )
+
+bind(
+  name = 'pthread',
+  actual = '//manifest/libraries:pthread',
+)
