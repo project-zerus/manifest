@@ -49,6 +49,11 @@ bind(
 )
 
 bind(
+  name = 'libevent',
+  actual = '//libevent:libevent',
+)
+
+bind(
   name = 'libssl',
   actual = '//openssl:openssl',
 )
