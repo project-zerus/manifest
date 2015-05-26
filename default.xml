@@ -16,6 +16,7 @@
   <project path="googlemock" name="googlemock" revision="1.7.0-bazel" />
   <project path="googletest" name="googletest" revision="1.7.0-bazel" />
   <project path="jemalloc" name="jemalloc" revision="3.6.0-bazel" />
+  <project path="libevent" name="libevent" revision="2.0.22-bazel" />
   <project path="openssl" name="openssl" revision="1.0.1m-bazel" />
   <project path="proxygen" name="proxygen" revision="0.21.0-bazel" />
   <project path="re2" name="re2" revision="master" />
