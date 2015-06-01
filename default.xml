@@ -14,8 +14,8 @@
   <project path="glog" name="glog" revision="0.3.4-bazel" />
   <project path="googlemock" name="googlemock" revision="1.7.0-bazel" />
   <project path="googletest" name="googletest" revision="1.7.0-bazel" />
+  <project path="keyczar" name="keyczar" revision="master" />
   <project path="proxygen" name="proxygen" revision="0.21.0-bazel" />
-  <project path="re2" name="re2" revision="master" />
   <project path="thrift" name="thrift" revision="0.9.2-bazel" />
 
 </manifest>
