@@ -11,9 +11,9 @@
   <project path="katana" name="katana" />
 
   <project path="tools/header-extractor" name="header-extractor" />
-  <project path="tools/header-replacer"  name="header-replacer"  />
-  <project path="tools/linter"           name="linter"  />
-  <project path="tools/zdevutils"        name="zdevutils"  />
+  <project path="tools/header-replacer" name="header-replacer"  />
+  <project path="tools/linter" name="linter"  />
+  <project path="tools/zdevutils" name="zdevutils"  />
 
   <project path="sandbox"  name="sandbox"  />
 
@@ -21,8 +21,6 @@
   <project path="double-conversion" name="double-conversion" revision="2.0.1-blade" />
   <project path="folly" name="folly" revision="0.47.0-blade" />
   <project path="jsoncpp" name="jsoncpp" revision="1.6.2-blade" />
-  <project path="keycenter-agent" name="keycenter/keycenter-agent" revision="master" remote="xiaomi" />
-  <project path="keycenter-agent-cpp" name="liuhuahang/keycenter-agent-cpp" revision="master" remote="xiaomi" />
   <project path="libevent" name="libevent" revision="2.0.22-blade" />
   <project path="lz4" name="lz4" revision="130-blade" />
   <project path="openssl" name="openssl" revision="1.0.1j-blade" />
