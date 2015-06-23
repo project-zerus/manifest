@@ -31,7 +31,7 @@
   <project path="stringencoders" name="stringencoders" revision="2015.06.16-blade" />
   <project path="thirdparty" name="thirdparty" revision="master" />
   <project path="thrift" name="thrift" revision="0.9.2-blade" />
-  <project path="toft" name="toft" revision="master" />
+  <project path="toft" name="toft" revision="2015.06.23-blade" />
   <project path="zlib" name="zlib" revision="1.2.8-blade" />
 
 </manifest>
