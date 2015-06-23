@@ -1,8 +1,5 @@
 cc_config(
   append = config_items(
-    extra_incs = [
-      'fbthrift',
-    ],
     warnings = [
       '-Wno-unused-label',
       '-Wno-unused-variable',
@@ -10,29 +7,29 @@ cc_config(
     cxxflags = [
       '-std=c++11',
       '-msse4.2',
+      '-pthread',
     ],
     cflags = [
       '-std=gnu99',
       '-msse4.2',
+      '-pthread',
+    ],
+    linkflags = [
+      '-pthread',
     ]
   )
 )
 
 proto_library_config(
   protoc='thirdparty/protobuf/bin/protoc',
-  protobuf_libs = [
-    '//protobuf:protobuf',
-    '//sofa-pbrpc:sofa-pbrpc',
-  ],
-  protobuf_incs = [
-    'protobuf/src',
-    'sofa-pbrpc/src',
-  ],
+  protobuf_libs=['//protobuf:protobuf'],
+  protobuf_path='protobuf/src',
+  protobuf_incs = 'protobuf/src',
 )
 
 thrift_library_config(
-  thrift = 'thirdparty/thrift-0.9.1/bin/thrift',
+  thrift = 'thrift/compiler/cpp/bin/thrift',
   thrift_libs = [
-    '//thirdparty/thrift:libthrift',
+    '//thrift/lib/cpp/src:libthrift',
   ],
 )
