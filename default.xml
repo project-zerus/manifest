@@ -22,6 +22,7 @@
   <project path="folly" name="folly" revision="0.47.0-blade" />
   <project path="fruit" name="fruit" revision="1.0.2-blade" />
   <project path="jsoncpp" name="jsoncpp" revision="1.6.2-blade" />
+  <project path="leveldb" name="leveldb" revision="1.18-blade" />
   <project path="libevent" name="libevent" revision="2.0.22-blade" />
   <project path="lz4" name="lz4" revision="130-blade" />
   <project path="openssl" name="openssl" revision="1.0.1j-blade" />
