@@ -21,7 +21,7 @@ cc_config(
 )
 
 proto_library_config(
-  protoc='thirdparty/protobuf/bin/protoc',
+  protoc='protobuf/bin/protoc',
   protobuf_libs=['//protobuf:protobuf'],
   protobuf_path='protobuf/src',
   protobuf_incs = 'protobuf/src',
