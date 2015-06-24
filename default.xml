@@ -19,6 +19,7 @@
 
   <project path="boost" name="boost" revision="1.57.0-blade" />
   <project path="double-conversion" name="double-conversion" revision="2.0.1-blade" />
+  <project path="f2web" name="f2web" revision="master" />
   <project path="folly" name="folly" revision="0.47.0-blade" />
   <project path="fruit" name="fruit" revision="1.0.2-blade" />
   <project path="jsoncpp" name="jsoncpp" revision="1.6.2-blade" />
