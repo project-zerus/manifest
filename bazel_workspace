@@ -9,11 +9,6 @@ bind(
 )
 
 bind(
-  name = 'folly',
-  actual = '//folly:folly',
-)
-
-bind(
   name = 'gflags',
   actual = '//gflags:gflags',
 )
