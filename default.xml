@@ -13,7 +13,6 @@
   <project path="tools/header-extractor" name="header-extractor" />
   <project path="tools/header-replacer" name="header-replacer"  />
   <project path="tools/linter" name="linter"  />
-  <project path="tools/zdevutils" name="zdevutils"  />
 
   <project path="sandbox"  name="sandbox"  />
 
@@ -35,7 +34,6 @@
   <project path="thirdparty" name="thirdparty" revision="master" />
   <project path="thrift" name="thrift" revision="0.9.3-blade" />
   <project path="toft" name="toft" revision="2015.06.23-blade" />
-  <project path="zerus/f2web" name="f2web" revision="master" />
   <project path="zlib" name="zlib" revision="1.2.8-blade" />
 
 </manifest>
