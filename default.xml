@@ -15,6 +15,7 @@
   <project path="googlemock" name="googlemock" revision="1.7.0-bazel" />
   <project path="googletest" name="googletest" revision="1.7.0-bazel" />
   <project path="thrift" name="thrift" revision="0.9.3-bazel" />
+  <project path="thumbgen" name="thumbgen" revision="0.0.1-bazel" />
   <project path="zlib" name="zlib" revision="1.2.8-bazel" />
 
 </manifest>
