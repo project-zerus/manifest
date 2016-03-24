@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="zerus" fetch="https://github.com/project-zerus" review="gerrit.zerus.co" />
+  <remote name="zerus"
+          fetch="https://github.com/project-zerus"
+          review="gerrit.zerus.co" />
 
   <default revision="master" remote="zerus" sync-j="8" />
 
@@ -17,20 +19,25 @@
   <project path="sandbox"  name="sandbox"  />
 
   <project path="boost" name="boost" revision="1.57.0-blade" />
-  <project path="double-conversion" name="double-conversion" revision="2.0.1-blade" />
+  <project path="double-conversion"
+           name="double-conversion"
+           revision="2.0.1-blade" />
   <project path="folly" name="folly" revision="0.47.0-blade" />
   <project path="fruit" name="fruit" revision="1.0.2-blade" />
   <project path="jsoncpp" name="jsoncpp" revision="1.6.2-blade" />
   <project path="leveldb" name="leveldb" revision="1.18-blade" />
   <project path="libevent" name="libevent" revision="2.0.22-blade" />
   <project path="lz4" name="lz4" revision="130-blade" />
+  <project path="mosh" name="mosh" revision="1.2.5-blade" />
   <project path="openssl" name="openssl" revision="1.0.1j-blade" />
   <project path="protobuf" name="protobuf" revision="2.6.0-blade" />
   <project path="proxygen" name="proxygen" revision="0.26.0-blade" />
   <project path="re2" name="re2" revision="2015.06.17-blade" />
   <project path="snappy" name="snappy" revision="1.1.2-blade" />
   <project path="sparsehash" name="sparsehash" revision="2015.06.16-blade" />
-  <project path="stringencoders" name="stringencoders" revision="2015.06.16-blade" />
+  <project path="stringencoders"
+           name="stringencoders"
+           revision="2015.06.16-blade" />
   <project path="thirdparty" name="thirdparty" revision="master" />
   <project path="thrift" name="thrift" revision="0.9.3-blade" />
   <project path="toft" name="toft" revision="2015.11.16-blade" />
